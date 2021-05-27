@@ -6,7 +6,7 @@ export const App = () => {
 
     return (
         <>
-        <div>bbb</div>
+        <div>222</div>
         <NavLink to="/" activeClassName="active">register now!</NavLink>
         </>
     );

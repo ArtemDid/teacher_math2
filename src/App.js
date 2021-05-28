@@ -8,6 +8,8 @@ import Footer from './components/footer'
 import Myeduc from './components/myeduc'
 import Znodpa from './components/znodpa'
 import Work from './components/work'
+import Portfolio from './components/portfolio'
+
 
 function App() {
   return (
@@ -19,6 +21,7 @@ function App() {
           <Route path="/myeduc" component={Myeduc} />
           <Route path="/znodpa" component={Znodpa} />
           <Route path="/work" component={Work} />
+          <Route path="/portfolio" component={Portfolio} />
         </Switch>
         <Footer/>
       </BrowserRouter>

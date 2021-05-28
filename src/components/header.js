@@ -31,7 +31,7 @@ export const App = () => {
                         <NavLink to="/main2" activeClassName="active">НОРМАТИВНА БАЗА</NavLink>
                     </Menu.Item>
                     <Menu.Item key="7">
-                        <NavLink to="/main2" activeClassName="active">ЗНО та ДПА</NavLink>
+                        <NavLink to="/znodpa" activeClassName="active">ЗНО та ДПА</NavLink>
                     </Menu.Item>
                     <Menu.Item key="8">
                         <NavLink to="/main2" activeClassName="active">ОЛІМПІАДА З МАТЕМАТИКИ</NavLink>

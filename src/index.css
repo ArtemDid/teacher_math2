@@ -5,16 +5,30 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
-}
-
-.content {
+.main {
   padding: 24px;
   margin: 0px;
   min-height: 280px;
-  /* background-image: url(./images/fon.jpg);
-  background-size: 100vw; */
   background-image: linear-gradient(to top, rgba(89, 106, 114, 0.6), rgba(206, 220, 23, 0.4)), url("./images/fon.jpg");
   background-size: cover;
+}
+
+.about {
+  padding: 24px;
+  margin: 0px;
+  min-height: 280px;
+  background-color: rgb(223, 205, 212);
+  border-radius: 0 60px 0 60px;
+}
+
+.about > div{
+  padding: 0px 100px 0 100px;
+}
+
+img{
+  border-radius: 8px;
+}
+
+#logo{
+  transform: rotate(20deg);
 }

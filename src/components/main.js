@@ -11,7 +11,7 @@ export const App = () => {
 
     return (
         <Layout style={{ padding: '0px 44px 44px' }}>
-            <Content className='content' style={{ borderRadius: '0 60px 0 60px' }}>
+            <Content className='main' style={{ borderRadius: '0 60px 0 60px' }}>
                 <div class="d-flex justify-content-around flex-wrap">
                     <div class="p-2 bd-highlight">Flex item 1</div>
                     <div class="p-2 bd-highlight" style={{ color: 'rgb(8, 20, 237)', textShadow: '0 0 10px rgba(0,0,0,0.5)' }}>
@@ -23,10 +23,10 @@ export const App = () => {
                     <span>Ласкаво просимо на персональний сайт</span>
                 </div>
                 <div style={{ textAlign: 'center' }}>
-                    <span style={{ fontFamily: 'Righteous, cursive', fontSize: 38, color: '#da16cf' }}>Діденко Інни Олександрівни,</span>
+                    <div style={{ fontFamily: 'Kalam, cursive', fontSize: 38, color: '#da16cf' }}>Діденко Інни Олександрівни,</div>
                 </div>
                 <div style={{ textAlign: 'center', fontSize: '20px' }}>
-                    <span>учителя математики "Новоіванівської ЗОШ І-ІІ ступенів"</span>
+                    <span>учителя математики Новоіванівської філії КЗ "НВК "Джерело"</span>
                 </div>
                 <br />
                 <div style={{ textAlign: 'center', fontSize: '28px' }}>

@@ -42,6 +42,7 @@ export const App = () => {
                         <span style={{ textDecorationLine: 'underline', marginLeft: '10px' }}>Назва і рік закінчення організації професійної освіти:</span><i> Запорізький державний  університет, 1996 р.</i><br />
                         <span style={{ textDecorationLine: 'underline', marginLeft: '10px' }}>Спеціальність, кваліфікація за дипломом:</span><i> викладач математики.</i><br />
                     </div>
+                    <br />
                     <div class="p-2 bd-highlight">
                         <span style={{ textDecorationLine: 'underline', color: 'red' }}>4. Моє педагогічне кредо</span><br />
                         <div style={{ textAlign: 'center', fontFamily: 'Pattaya', fontSize: 36, color: 'blue', textShadow: '0 0 20px rgba(0,0,0,0.8)' }}>"Хороший вчитель може навчити інших навіть тому, чого сам не вміє."</div>

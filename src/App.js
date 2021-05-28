@@ -6,7 +6,7 @@ import About from './components/about'
 import Header from './components/header'
 import Footer from './components/footer'
 import Myeduc from './components/myeduc'
-
+import Znodpa from './components/znodpa'
 
 function App() {
   return (
@@ -16,6 +16,7 @@ function App() {
           <Route exact path="/" component={Main} />
           <Route path="/about" component={About} />
           <Route path="/myeduc" component={Myeduc} />
+          <Route path="/znodpa" component={Znodpa} />
         </Switch>
         <Footer/>
       </BrowserRouter>

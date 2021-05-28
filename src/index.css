@@ -32,3 +32,11 @@ img{
 #logo{
   transform: rotate(20deg);
 }
+
+.myeduc{
+  padding: 24px;
+  margin: 0px;
+  min-height: 280px;
+  background-color: rgb(223, 240, 240);
+  border-radius: 0 60px 0 60px;
+}

@@ -7,6 +7,7 @@ import Header from './components/header'
 import Footer from './components/footer'
 import Myeduc from './components/myeduc'
 import Znodpa from './components/znodpa'
+import Work from './components/work'
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/about" component={About} />
           <Route path="/myeduc" component={Myeduc} />
           <Route path="/znodpa" component={Znodpa} />
+          <Route path="/work" component={Work} />
         </Switch>
         <Footer/>
       </BrowserRouter>

@@ -9,6 +9,7 @@ import Myeduc from './components/myeduc'
 import Znodpa from './components/znodpa'
 import Work from './components/work'
 import Portfolio from './components/portfolio'
+import Photo from './components/photo'
 
 
 function App() {
@@ -22,6 +23,8 @@ function App() {
           <Route path="/znodpa" component={Znodpa} />
           <Route path="/work" component={Work} />
           <Route path="/portfolio" component={Portfolio} />
+          <Route path="/photo" component={Photo} />
+
         </Switch>
         <Footer/>
       </BrowserRouter>

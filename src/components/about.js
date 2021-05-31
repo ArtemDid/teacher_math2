@@ -11,7 +11,7 @@ const { Header, Content, Sider } = Layout;
 export const App = () => {
 
     return (
-        <Layout style={{ padding: '0px 10% 10%' }}>
+        <Layout className='content'>
             <Content className='about'>
                 <div class="d-flex justify-content-around flex-wrap" style={{ borderBottom: '2px solid blue' }}>
                     <div class="p-2 bd-highlight" style={{ fontFamily: 'Kalam, cursive', fontSize: 48 }}>Про себе</div>
@@ -35,7 +35,7 @@ export const App = () => {
                             <span style={{ textDecorationLine: 'underline', marginLeft: '10px' }}>Кваліфікаційна категорія:</span><i> вища категорія.</i>
                         </div>
                         <div class="bd-highlight" style={{ float: 'right' }}>
-                            <img src={logo} alt='photo' id='logo' style={{ width: '100%' }}></img>
+                            <img src={logo} alt='photo' id='logo'></img>
                         </div>
                     </div>
                     <div class="p-2 bd-highlight">

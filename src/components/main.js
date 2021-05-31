@@ -13,9 +13,9 @@ export const App = () => {
     return (
         <Layout className='content'>
             <Content className='main'>
-                <div class="d-flex justify-content-around flex-wrap">
+                <div class="d-flex justify-content-evenly flex-wrap">
                     <div class="p-2 bd-highlight">
-                        <img src={logo} alt='photo' style={{ width: '100%' }}></img>
+                    <img src={logo} alt='photo' style={{ width:'100%' }}></img>
                     </div>
                     <div class="p-2 bd-highlight" style={{ color: 'rgb(8, 20, 237)', textShadow: '0 0 10px rgba(0,0,0,0.5)' }}>
                         <div style={{ maxWidth: '400px', fontFamily: 'Pattaya', fontSize: 24 }}>Хороший вчитель може навчити інших навіть тому, чого сам не вміє.</div>
@@ -26,7 +26,7 @@ export const App = () => {
                     <span>Ласкаво просимо на персональний сайт</span>
                 </div>
                 <div style={{ textAlign: 'center' }}>
-                    <div style={{ fontFamily: 'Kalam, cursive', fontSize: 38, color: '#da16cf' }}>Діденко Інни Олександрівни,</div>
+                    <div className='name'>Діденко Інни Олександрівни,</div>
                 </div>
                 <div style={{ textAlign: 'center', fontSize: '20px' }}>
                     <span>учителя математики Новоіванівської філії КЗ "НВК "Джерело"</span>

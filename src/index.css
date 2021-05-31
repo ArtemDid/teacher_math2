@@ -14,6 +14,20 @@ body {
   border-radius: 0 60px 0 60px;
 }
 
+.header {
+  text-align: center;
+  font-family: 'Roboto Mono';
+  font-size: 58px;
+  color: rgb(237, 8, 8);
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.name {
+  font-family: 'Kalam', cursive;
+  font-size: 38px;
+  color: #da16cf;
+}
+
 .about {
   padding: 24px;
   margin: 0px;
@@ -22,19 +36,20 @@ body {
   border-radius: 0 60px 0 60px;
 }
 
-.about > div{
+.about>div {
   padding: 0px 10% 0 10%;
 }
 
-img{
+img {
   border-radius: 8px;
 }
 
-#logo{
+#logo {
   transform: rotate(20deg);
+  width: 100%;
 }
 
-.myeduc{
+.myeduc {
   padding: 24px;
   margin: 0px;
   min-height: 280px;
@@ -42,7 +57,7 @@ img{
   border-radius: 0 60px 0 60px;
 }
 
-.znodpa{
+.znodpa {
   padding: 24px;
   margin: 0px;
   min-height: 280px;
@@ -50,7 +65,7 @@ img{
   border-radius: 0 60px 0 60px;
 }
 
-.work{
+.work {
   padding: 24px;
   margin: 0px;
   min-height: 280px;
@@ -58,7 +73,7 @@ img{
   border-radius: 0 60px 0 60px;
 }
 
-.norm{
+.norm {
   padding: 24px;
   margin: 0px;
   min-height: 280px;
@@ -66,7 +81,7 @@ img{
   border-radius: 0 60px 0 60px;
 }
 
-.olimp{
+.olimp {
   padding: 24px;
   margin: 0px;
   min-height: 280px;
@@ -74,7 +89,7 @@ img{
   border-radius: 0 60px 0 60px;
 }
 
-.lessons{
+.lessons {
   padding: 24px;
   margin: 0px;
   min-height: 280px;
@@ -82,14 +97,39 @@ img{
   border-radius: 0 60px 0 60px;
 }
 
-.content{
+.content {
   padding: 0px 44px 0px 44px;
+}
+
+.photo{
+  height: 70vh;
+  line-height: 400px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media screen and (max-width: 760px) {
   .content {
-      padding: 0px;
+    padding: 0px;
   }
-
-
+  .header {
+    font-size: 38px;
+  }
+  .about>div {
+    padding: 0px;
+  }
+  #logo {
+    transform: rotate(0);
+  }
+  iframe {
+    width: 100%;
+  }
+  #plan {
+    width: 100%;
+  }
+  .photo {
+    height: auto;
+    width: 100%;
+  }
 }

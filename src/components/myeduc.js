@@ -10,7 +10,7 @@ const { Header, Content, Sider } = Layout;
 export const App = () => {
 
     return (
-        <Layout style={{ padding: '0px 100px 100px' }}>
+        <Layout className='content'>
             <Content className='myeduc'>
                 <div class="d-flex justify-content-center flex-wrap">
                     <div class="d-flex flex-column bd-highlight mb-3" style={{ textAlign: 'center' }}>
@@ -89,7 +89,7 @@ export const App = () => {
                     </div>
                     <div class="p-2 bd-highlight" style={{ textAlign: 'center' }}>
                         <b style={{ fontSize: '20px' }}>ПЛАН</b> <br />
-                        <img src={logo} alt='photo'></img>
+                        <img src={logo} alt='photo' id='plan'></img>
                     </div>
                     <br />
                     <div class="p-2 bd-highlight">

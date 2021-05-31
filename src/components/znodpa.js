@@ -10,7 +10,7 @@ const { Header, Content, Sider } = Layout;
 export const App = () => {
 
     return (
-        <Layout style={{ padding: '0px 100px 100px' }}>
+        <Layout className='content'>
             <Content className='znodpa'>
                 <div class="d-flex flex-column bd-highlight mb-3" style={{ fontSize: '18px' }}>
                     <div class="p-2 bd-highlight">

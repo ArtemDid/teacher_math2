@@ -1,14 +1,6 @@
 import React from "react";
 import { Layout, Carousel, Menu, Breadcrumb } from 'antd';
 
-const contentStyle = {
-    height: '70vh',
-    lineHeight: '400px',
-    textAlign: 'center',
-    marginLeft: 'auto',
-    marginRight: 'auto'
-};
-
 const { Header, Content, Sider } = Layout;
 
 function importAll(r) {
@@ -21,7 +13,7 @@ const sliders = (
     images.map((item, index) => {
         return (
             <div>
-                <img src={item.default} key={index} alt='photo' style={contentStyle}></img>
+                <img src={item.default} key={index} alt='photo' className='photo'></img>
             </div>
         )
     })
@@ -30,7 +22,7 @@ const sliders = (
 export const App = () => {
 
     return (
-        <Layout style={{ padding: '0px 100px 100px' }}>
+        <Layout className='content'>
             <Content className='work'>
                 <div class="d-flex justify-content-around flex-wrap" style={{ borderBottom: '2px solid blue' }}>
                     <div class="p-2 bd-highlight" style={{ fontFamily: 'Kalam, cursive', fontSize: 48, color: 'blue' }}>Фотоальбом</div>

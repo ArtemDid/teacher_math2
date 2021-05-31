@@ -8,7 +8,7 @@ const { Header, Content, Sider } = Layout;
 export const App = () => {
 
     return (
-        <Layout style={{ padding: '0px 100px 100px' }}>
+        <Layout className='content'>
             <Content className='lessons'>
                 <div class="d-flex justify-content-center flex-wrap" style={{ borderBottom: '2px solid black' }}>
                     <div class="p-2 bd-highlight" style={{ fontFamily: 'Kalam, cursive', fontSize: 48, color: 'black' }}>Мої уроки</div>

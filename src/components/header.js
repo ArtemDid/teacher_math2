@@ -44,7 +44,7 @@ export const App = () => {
                     </Menu.Item>
                 </Menu>
             </Header>
-            <div style={{textAlign:'center', fontFamily: 'Roboto Mono', fontSize: 58, color: 'rgb(237,8,8)', textShadow:'0 0 10px rgba(0,0,0,0.5)'}}>Сторінка учителя математики</div>
+            <div className='header'>Сторінка учителя математики</div>
 
         </Layout>
     );

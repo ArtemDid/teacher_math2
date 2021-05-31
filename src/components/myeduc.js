@@ -1,10 +1,9 @@
 import React from "react";
-import { Layout, Menu, Breadcrumb } from 'antd';
-import { UserOutlined, LaptopOutlined, NotificationOutlined } from '@ant-design/icons';
+import { Layout, Menu } from 'antd';
 import logo from '../images/Plan.png';
 
 const { SubMenu } = Menu;
-const { Header, Content, Sider } = Layout;
+const { Content } = Layout;
 
 
 export const App = () => {

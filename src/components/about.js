@@ -1,6 +1,5 @@
 import React from "react";
-import { Layout, Menu, Breadcrumb } from 'antd';
-import { UserOutlined, LaptopOutlined, NotificationOutlined } from '@ant-design/icons';
+import { Layout, Menu } from 'antd';
 import logo from '../images/maths1.jpg';
 import logo2 from '../images/about.webp';
 

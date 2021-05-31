@@ -1,7 +1,7 @@
 import React from "react";
-import { Layout, Carousel, Menu, Breadcrumb } from 'antd';
+import { Layout, Carousel } from 'antd';
 
-const { Header, Content, Sider } = Layout;
+const { Content } = Layout;
 
 function importAll(r) {
     return r.keys().map(r);

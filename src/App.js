@@ -11,7 +11,7 @@ import Work from './components/work'
 import Portfolio from './components/portfolio'
 import Photo from './components/photo'
 import NormData from './components/normData'
-
+import Olimp from './components/olimp'
 
 function App() {
   return (
@@ -26,6 +26,7 @@ function App() {
           <Route path="/portfolio" component={Portfolio} />
           <Route path="/photo" component={Photo} />
           <Route path="/norm" component={NormData} />
+          <Route path="/olimp" component={Olimp} />
 
         </Switch>
         <Footer/>

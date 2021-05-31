@@ -12,6 +12,7 @@ import Portfolio from './components/portfolio'
 import Photo from './components/photo'
 import NormData from './components/normData'
 import Olimp from './components/olimp'
+import Lessons from './components/lessons'
 
 function App() {
   return (
@@ -27,7 +28,7 @@ function App() {
           <Route path="/photo" component={Photo} />
           <Route path="/norm" component={NormData} />
           <Route path="/olimp" component={Olimp} />
-
+          <Route path="/lessons" component={Lessons} />
         </Switch>
         <Footer/>
       </BrowserRouter>

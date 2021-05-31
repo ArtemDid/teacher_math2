@@ -72,3 +72,11 @@ img{
   background-color: rgb(240, 233, 223);
   border-radius: 0 60px 0 60px;
 }
+
+.lessons{
+  padding: 24px;
+  margin: 0px;
+  min-height: 280px;
+  background-color: rgb(201, 201, 201);
+  border-radius: 0 60px 0 60px;
+}

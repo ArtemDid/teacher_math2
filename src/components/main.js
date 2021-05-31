@@ -1,6 +1,7 @@
 import React from "react";
 import { Layout, Menu, Breadcrumb } from 'antd';
 import { UserOutlined, LaptopOutlined, NotificationOutlined } from '@ant-design/icons';
+import logo from '../images/main.webp';
 
 const { SubMenu } = Menu;
 const { Header, Content, Sider } = Layout;
@@ -10,10 +11,12 @@ const { Header, Content, Sider } = Layout;
 export const App = () => {
 
     return (
-        <Layout style={{ padding: '0px 44px 44px' }}>
-            <Content className='main' style={{ borderRadius: '0 60px 0 60px' }}>
+        <Layout className='content'>
+            <Content className='main'>
                 <div class="d-flex justify-content-around flex-wrap">
-                    <div class="p-2 bd-highlight">Flex item 1</div>
+                    <div class="p-2 bd-highlight">
+                        <img src={logo} alt='photo' style={{ width: '100%' }}></img>
+                    </div>
                     <div class="p-2 bd-highlight" style={{ color: 'rgb(8, 20, 237)', textShadow: '0 0 10px rgba(0,0,0,0.5)' }}>
                         <div style={{ maxWidth: '400px', fontFamily: 'Pattaya', fontSize: 24 }}>Хороший вчитель може навчити інших навіть тому, чого сам не вміє.</div>
                         <div style={{ float: "right", fontFamily: 'Pattaya', fontSize: 14 }}>Тадеуш Котарбиньский</div>

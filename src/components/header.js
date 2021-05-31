@@ -28,7 +28,7 @@ export const App = () => {
                         <NavLink to="/myeduc" activeClassName="active">САМООСВІТА</NavLink>
                     </Menu.Item>
                     <Menu.Item key="6">
-                        <NavLink to="/main2" activeClassName="active">НОРМАТИВНА БАЗА</NavLink>
+                        <NavLink to="/norm" activeClassName="active">НОРМАТИВНА БАЗА</NavLink>
                     </Menu.Item>
                     <Menu.Item key="7">
                         <NavLink to="/znodpa" activeClassName="active">ЗНО та ДПА</NavLink>

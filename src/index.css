@@ -56,3 +56,11 @@ img{
   background-color: rgb(240, 231, 223);
   border-radius: 0 60px 0 60px;
 }
+
+.norm{
+  padding: 24px;
+  margin: 0px;
+  min-height: 280px;
+  background-color: rgb(240, 223, 235);
+  border-radius: 0 60px 0 60px;
+}

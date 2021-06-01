@@ -4,7 +4,7 @@ import logo from '../images/maths1.jpg';
 import logo2 from '../images/about.webp';
 
 const { SubMenu } = Menu;
-const { Header, Content, Sider } = Layout;
+const { Content } = Layout;
 
 
 export const App = () => {

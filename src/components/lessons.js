@@ -11,7 +11,7 @@ export const App = () => {
         <Layout className='content'>
             <Content className='lessons'>
                 <div class="d-flex justify-content-center flex-wrap" style={{ borderBottom: '2px solid black' }}>
-                    <div class="p-2 bd-highlight" style={{ fontFamily: 'Kalam, cursive', fontSize: 48, color: 'black' }}>Мої уроки</div>
+                    <div class="p-2 bd-highlight" style={{ fontSize: 48, color: 'black' }}>Мої уроки</div>
                 </div>
                 <br />
                 <div class="p-2 bd-highlight" style={{ textAlign: 'center', fontFamily: 'Pattaya' }}>

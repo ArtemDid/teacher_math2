@@ -11,7 +11,7 @@ export const App = () => {
         <Layout className='content'>
             <Content className='work'>
                 <div class="d-flex justify-content-around flex-wrap" style={{ borderBottom: '2px solid blue' }}>
-                    <div class="p-2 bd-highlight" style={{ fontFamily: 'Kalam, cursive', fontSize: 48, color: 'blue' }}>Досвід роботи</div>
+                    <div class="p-2 bd-highlight" style={{ fontSize: 48, color: 'blue' }}>Досвід роботи</div>
                 </div>
                 <br />
                 <div style={{ textAlign: 'center' }}>

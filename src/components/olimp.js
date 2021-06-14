@@ -11,7 +11,7 @@ export const App = () => {
         <Layout className='content'>
             <Content className='olimp'>
                 <div class="d-flex justify-content-center flex-wrap" style={{ borderBottom: '2px solid orange' }}>
-                    <div class="p-2 bd-highlight" style={{ fontFamily: 'Kalam, cursive', fontSize: 48, color: 'orange' }}>ОЛІМПІАДА З МАТЕМАТИКИ</div>
+                    <div class="p-2 bd-highlight" style={{ fontSize: 48, color: 'orange' }}>ОЛІМПІАДА З МАТЕМАТИКИ</div>
                 </div>
                 <br />
                 <div class="p-2 bd-highlight" style={{ textAlign: 'center', fontFamily: 'Pattaya' }}>

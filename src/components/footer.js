@@ -12,7 +12,7 @@ export const App = () => {
             <Footer style={{ padding: 0 }}>
                 <Menu mode="horizontal" style={{ textAlign: 'center' }}>
                     <Menu.Item key="1">
-                        <a href="https://nivan.ucoz.ua/" target="_blank">© {new Date().getFullYear()} Новоіванівська філія КЗ "НВК "Джерело"</a>
+                        <a href="https://nivan.ucoz.ua/" target="_blank">© {new Date().getFullYear()} Новоіванівської філії Комишуваської гімназії "Джерело"</a>
                     </Menu.Item>
                     <Menu.Item key="2">
                         <a href="https://www.instagram.com/innadidenko10/?hl=ru" target="_blank"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>

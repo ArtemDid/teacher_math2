@@ -42,10 +42,6 @@ export const App = () => {
                     <a href="https://drive.google.com/file/d/10H2N8WcLRhIg4puxrIoQtL4mmpk9GgvQ/view?usp=sharing" class="btn btn-outline-success btn-lg" tabindex="-1" role="button" aria-disabled="true" target='_blank'>Олімпіадні задачі з математики з розв'язками для учнів середньої школи</a>
                 </div>
                 <br />
-                <div class="p-2 bd-highlight" style={{ textAlign: 'center', fontFamily: 'Pattaya' }}>
-                    <a href="https://drive.google.com/file/d/1LwXZTR_7a4QqQNCbHxuIkyAJuR3yWdr_/view?usp=sharing" class="btn btn-outline-success btn-lg" tabindex="-1" role="button" aria-disabled="true" target='_blank'>СДПУ Олімпіадні задачі</a>
-                </div>
-                <br />
             </Content>
         </Layout>
     );

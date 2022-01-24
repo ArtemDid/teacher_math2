@@ -28,7 +28,7 @@ export const App = () => {
                     <div className='name'>Діденко Інни Олександрівни,</div>
                 </div>
                 <div style={{ textAlign: 'center', fontSize: '20px' }}>
-                    <span>учителя математики Новоіванівської філії КЗ "НВК "Джерело"</span>
+                    <span>учителя математики Новоіванівської філії Комишуваської гімназії "Джерело"</span>
                 </div>
                 <br />
                 <div style={{ textAlign: 'center', fontSize: '28px' }}>

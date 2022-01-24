@@ -40,6 +40,9 @@ export const App = () => {
                         <NavLink to="/lessons" activeClassName="active">МОЇ УРОКИ</NavLink>
                     </Menu.Item>
                     <Menu.Item key="10">
+                        <NavLink to="/tests" activeClassName="active">ТЕСТИ</NavLink>
+                    </Menu.Item>
+                    <Menu.Item key="11">
                         <NavLink to="/photo" activeClassName="active">ФОТОАЛЬБОМ</NavLink>
                     </Menu.Item>
                 </Menu>

@@ -80,6 +80,15 @@ img {
   border-radius: 0 60px 0 60px;
 }
 
+.awards{
+  padding: 24px;
+  margin: 0px;
+  min-height: 280px;
+  background-color: rgb(240, 240, 223);
+  border-radius: 0 60px 0 60px;
+
+}
+
 .olimp {
   padding: 24px;
   margin: 0px;
@@ -94,6 +103,10 @@ img {
   min-height: 280px;
   background-color: rgb(201, 201, 201);
   border-radius: 0 60px 0 60px;
+}
+
+.lessons a{
+  width: 700px;
 }
 
 .test {
@@ -120,6 +133,9 @@ img {
   white-space: normal !important;
 }
 
+.ant-image{
+  margin: 10px;
+}
 @media screen and (max-width: 760px) {
   .content {
     padding: 0px;
@@ -142,5 +158,8 @@ img {
   .photo {
     height: auto;
     width: 100%;
+  }
+  .lessons a{
+    width: 300px;
   }
 }

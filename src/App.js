@@ -14,6 +14,7 @@ import NormData from './components/normData'
 import Olimp from './components/olimp'
 import Lessons from './components/lessons'
 import Tests from './components/tests'
+import Awards from './components/awards'
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
           <Route path="/olimp" component={Olimp} />
           <Route path="/lessons" component={Lessons} />
           <Route path="/tests" component={Tests} />
+          <Route path="/awards" component={Awards} />
 
         </Switch>
         <Footer/>

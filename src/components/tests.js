@@ -25,15 +25,13 @@ export const App = () => {
         color: ['black', 'black', 'black', 'black'], color2: ['black', 'black', 'black', 'black'], result: false
       },
       {
-        title: "Розв'яжіть рівняння 3(x-1)+7(x+2)=10", answ1: '0', answ2: 'коренів немає', answ3: '0.1', answ4: '-0.1', valTrue: '4',
+        title: "Розв'яжіть рівняння 3(x-1)+ 7(x+2)=10", answ1: '0', answ2: 'коренів немає', answ3: '0.1', answ4: '-0.1', valTrue: '4',
         color: ['black', 'black', 'black', 'black'], color2: ['black', 'black', 'black', 'black'], result: false
       },
       {
         title: "Розв'яжіть рівняння |x-4|=x+3", answ1: '0.5', answ2: '-0.5', answ3: 'коренів немає', answ4: '0.5 і -0.5', valTrue: '1',
         color: ['black', 'black', 'black', 'black'], color2: ['black', 'black', 'black', 'black'], result: false
       },
-
-
     ]
   )
 
@@ -100,7 +98,7 @@ export const App = () => {
         Swal.fire({
           position: 'top-center',
           icon: 'error',
-          title: 'Неправильно',
+          title: 'Є помилки',
           showConfirmButton: false,
           timer: 1500,
           width: 300

@@ -116,10 +116,9 @@ img {
   margin-right: auto;
 }
 
-/* .site-card-border-less-wrapper {
-  padding: 30px;
-  background: #ececec;
-} */
+.ant-card-head-title {
+  white-space: normal !important;
+}
 
 @media screen and (max-width: 760px) {
   .content {

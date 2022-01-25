@@ -15,11 +15,11 @@ export const App = () => {
                 </div>
                 <br />
                 <div class="p-2 bd-highlight" style={{ textAlign: 'center', fontFamily: 'Pattaya' }}>
-                    <a href="https://drive.google.com/file/d/1zQGXufwKs56nQBA767ZPmUZ1xpOweNhT/view?usp=sharing" class="btn btn-outline-primary btn-lg" tabindex="-1" role="button" aria-disabled="true" target='_blank'>Урок геометрії у 7 класі: "Суміжні кути"</a>
+                    <a href="https://drive.google.com/file/d/1Ud1D1gB_Tc55BiVFSjbo26aulJ_ON1Dx/view?usp=sharing" class="btn btn-outline-primary btn-lg" tabindex="-1" role="button" aria-disabled="true" target='_blank'>Урок геометрії у 7 класі: "Суміжні кути"</a>
                 </div>
                 <br />
                 <div class="p-2 bd-highlight" style={{ textAlign: 'center', fontFamily: 'Pattaya' }}>
-                    <a href="https://drive.google.com/file/d/1ELiGsuXcbIyjBAOQiugnkoe2V5YA6c11/view?usp=sharing" class="btn btn-outline-primary btn-lg" tabindex="-1" role="button" aria-disabled="true" target='_blank'>Урок алгебри у 9 класі: "Перетворення графіків функції"</a>
+                    <a href="https://drive.google.com/file/d/1KPlnFa8mcBTdGYapbKhn5y6ayxyw-ba8/view?usp=sharing" class="btn btn-outline-primary btn-lg" tabindex="-1" role="button" aria-disabled="true" target='_blank'>Урок алгебри у 9 класі: "Перетворення графіків функції"</a>
                 </div>
                 <br />
                 <div class="p-2 bd-highlight" style={{ textAlign: 'center', fontFamily: 'Pattaya' }}>

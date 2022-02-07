@@ -1,39 +1,35 @@
 import React from "react";
-import { Layout, Menu } from 'antd';
-import { Image } from 'antd';
-
-
+import { Layout, Menu, Image } from 'antd';
 const { SubMenu } = Menu;
 const { Content } = Layout;
-
 
 export const App = () => {
 
   function importAll(r) {
     return r.keys().map(r);
-}
+  }
 
-const images = importAll(require.context('../images/awards', false, /\.(png|pdf|jpe?g|webp)$/));
+  const images = importAll(require.context('../images/awards', false, /\.(png|jpe?g|webp)$/));
 
-const sliders = (
+  const sliders = (
     images.map((item, index) => {
-        return (
-            <Image
-            alt='photo'
-            key={index}
-            width={400}
-            src={item.default}
-          />
-        )
+      return (
+        <Image
+          alt='photo'
+          key={index}
+          width={400}
+          src={item.default}
+        />
+      )
     })
-);
-
-console.log(images)
+  );
 
   return (
     <Layout className='content'>
       <Content className='awards'>
-        {sliders}
+        <div class="d-flex justify-content-center flex-wrap">
+          {sliders}
+        </div>
       </Content>
     </Layout>
   );

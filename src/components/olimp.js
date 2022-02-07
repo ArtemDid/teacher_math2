@@ -1,11 +1,28 @@
 import React from "react";
-import { Layout, Menu } from 'antd';
-
+import { Layout, Menu, Image } from 'antd';
 const { SubMenu } = Menu;
 const { Content } = Layout;
 
-
 export const App = () => {
+
+    function importAll(r) {
+        return r.keys().map(r);
+    }
+
+    const images = importAll(require.context('../images/olimp', false, /\.(png|jpe?g|webp)$/));
+
+    const sliders = (
+        images.map((item, index) => {
+            return (
+                <Image
+                    alt='photo'
+                    key={index}
+                    width={400}
+                    src={item.default}
+                />
+            )
+        })
+    );
 
     return (
         <Layout className='content'>
@@ -42,6 +59,9 @@ export const App = () => {
                     <a href="https://drive.google.com/file/d/10H2N8WcLRhIg4puxrIoQtL4mmpk9GgvQ/view?usp=sharing" class="btn btn-outline-success btn-lg" tabindex="-1" role="button" aria-disabled="true" target='_blank'>Олімпіадні задачі з математики з розв'язками для учнів середньої школи</a>
                 </div>
                 <br />
+                <div class="d-flex justify-content-center flex-wrap">
+                    {sliders}
+                </div>
             </Content>
         </Layout>
     );

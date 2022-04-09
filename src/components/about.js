@@ -26,10 +26,10 @@ export const App = () => {
                     <div class="p-2 bd-highlight">
                         <div class="bd-highlight" style={{ float: 'left' }}>
                             <span style={{ textDecorationLine: 'underline', color: 'red' }}>2. Робота</span><br />
-                            <span style={{ textDecorationLine: 'underline', marginLeft: '10px' }}>Місце роботи:</span><i> Новоіванівська філія КЗ "НВК "Джерело"</i><br />
+                            <span style={{ textDecorationLine: 'underline', marginLeft: '10px' }}>Місце роботи:</span><i> Новоіванівська філія Комишуваської гімназії "Джерело".</i><br />
                             <span style={{ textDecorationLine: 'underline', marginLeft: '10px' }}>Посада:</span><i> вчитель математики.</i><br />
                             <span style={{ textDecorationLine: 'underline', marginLeft: '10px' }}>Викладає предмети:</span><i> математика, алгебра, геометрія.</i><br />
-                            <span style={{ textDecorationLine: 'underline', marginLeft: '10px' }}>Класне керівництво в даний час:</span><i> відсутнє.</i><br />
+                            <span style={{ textDecorationLine: 'underline', marginLeft: '10px' }}>Класне керівництво в даний час:</span><i> 9 клас.</i><br />
                             <span style={{ textDecorationLine: 'underline', marginLeft: '10px' }}>Загальний педагогічний стаж:</span><i> 29 років.</i><br />
                             <span style={{ textDecorationLine: 'underline', marginLeft: '10px' }}>Кваліфікаційна категорія:</span><i> вища категорія.</i>
                         </div>
